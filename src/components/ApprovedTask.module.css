@@ -1,0 +1,10 @@
+.approvedTask {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-aqua);
+  width: 1304px;
+  height: 680px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}

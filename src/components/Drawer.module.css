@@ -1,0 +1,134 @@
+.home {
+  position: relative;
+}
+.home:hover {
+  color: var(--color-darkturquoise);
+}
+.homeWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 0;
+}
+.aboutUsWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 1;
+}
+.featuresWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 2;
+}
+.pricingWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 3;
+}
+.contactSalesWrapper {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 4;
+}
+.signInWrapper {
+  width: 138px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  z-index: 5;
+}
+.getStarted {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inder);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 170px;
+  flex-shrink: 0;
+}
+.getStartedWrapper {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-3xs);
+  background-color: var(--color-cornflowerblue-100);
+  border-radius: var(--br-mini);
+  width: 170px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+}
+.closeIcon1 {
+  position: absolute;
+  margin: 0 !important;
+  top: 31px;
+  left: 219px;
+  width: 21.2px;
+  height: 21.2px;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 7;
+}
+.drawer1 {
+  position: relative;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(180deg, #fff, #d5ebf8);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 71px 49px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  opacity: 0;
+  height: 100%;
+  max-width: 90%;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inder);
+}
+.drawer1.animate {
+  animation: 0.1s ease 0s  normal forwards slide-in-left;
+}
+
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

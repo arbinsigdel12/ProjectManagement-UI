@@ -1,0 +1,840 @@
+.image1Icon {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 206px;
+  height: 65px;
+  object-fit: cover;
+}
+.image1Wrapper {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+  width: 226px;
+  height: 71px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.heading1 {
+  position: relative;
+  line-height: 130%;
+}
+.heading1:hover {
+  color: var(--color-darkturquoise);
+}
+.heading {
+  width: 90px;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.heading4 {
+  width: 90px;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.heading6 {
+  width: 126px;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.links1 {
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 396px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inder);
+}
+.hamburgerMenuChild {
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 41px;
+  height: 1px;
+}
+.hamburgerMenu {
+  position: absolute;
+  top: 10px;
+  left: 590px;
+  height: 45px;
+  display: none;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  cursor: pointer;
+}
+.signIn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  flex-shrink: 0;
+}
+.signIn:hover {
+  color: var(--color-darkturquoise);
+}
+.signInWrapper {
+  width: 100px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.getStarted {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inder);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 170px;
+  flex-shrink: 0;
+}
+.getStartedWrapper {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-3xs);
+  background-color: var(--color-cornflowerblue-100);
+  border-radius: var(--br-mini);
+  width: 170px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.getStartedWrapper:hover {
+  background-color: var(--color-cornflowerblue-200);
+}
+.signinandgetstarted {
+  position: absolute;
+  top: 10px;
+  left: 396px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.mainlinks {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 670px;
+  height: 65px;
+}
+.navbarChild {
+  position: absolute;
+  top: 38.5px;
+  left: 240.5px;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1px;
+  height: 26px;
+}
+.navbar1 {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs) var(--br-3xs) 0px 0px;
+  background-color: var(--color-white);
+  height: 95px;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-inder);
+}
+.step1Wrapper {
+  border-radius: 7.95px;
+  background-color: var(--color-mediumpurple);
+  width: 55.6px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 7.156799793243408px 0px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.selectYourPlan1 {
+  flex: 1;
+  position: relative;
+  text-align: left;
+}
+.step1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 6.361074447631836px 5.566396713256836px 7.0873236656188965px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15.75px;
+}
+.month {
+  align-self: stretch;
+  position: relative;
+}
+.rs2500 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-6xl);
+}
+.perMonth {
+  align-self: stretch;
+  position: relative;
+  color: var(--color-gray);
+}
+.pricingBox {
+  flex: 1;
+  border-radius: var(--br-base-9);
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-41xl) var(--padding-42xl);
+  align-items: flex-start;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  border: 0.8px solid var(--color-black);
+  box-shadow:0px 4px 2px 1px #c99ae5;
+}
+.pricingBox:hover{
+  transform:scale(1.1)  
+}
+.suscriptionoption {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 21px 80px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 230px;
+  text-align: left;
+}
+.pricepermonth {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 0px 0px var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.step2Wrapper {
+  border-radius: 7.95px;
+  background-color: var(--color-mediumpurple);
+  width: 55.7px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  padding: 7.156227111816406px 0px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.enterYourEmail1 {
+  position: relative;
+  display: inline-block;
+  width: 198px;
+  flex-shrink: 0;
+}
+.step2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 6.361675262451172px 5.565948009490967px 7.084051132202148px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15.75px;
+  text-align: center;
+}
+.emailtoprice1 {
+  border: none;
+  background-color: var(--color-white);
+  border-radius: var(--br-3xs);
+  padding-left: 20px;
+  font-size: larger;
+  width: 500px;
+  height: 50px;
+}
+.emailaddress {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0px var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  text-align: left;
+}
+.chooseYourPayment1 {
+  position: relative;
+  font-size: var(--font-size-2xl);
+  display: inline-block;
+  width: 289px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.step3 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 7px 9px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30.45px;
+}
+.paymentoptionChild {
+  position: absolute;
+  top: 0px;
+  left: 620.5px;
+  background-color: var(--color-gainsboro-200);
+  width: 26.2px;
+  height: 210px;
+}
+.submit {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-black);
+  text-align: left;
+  cursor: pointer;
+  border: none;
+  padding: 2px;
+  background-color: var(--color-cornflowerblue-100);
+  border-radius: var(--br-3xs);
+  width: 150px;
+  height: 20px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.paymentoptionItem {
+  position: absolute;
+  top: 0px;
+  left: 620.5px;
+  border-radius: var(--br-2xs-5);
+  background-color: var(--color-gainsboro-100);
+  width: 26.2px;
+  height: 105px;
+}
+.image13Icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 511.2px;
+  height: 105px;
+  object-fit: cover;
+}
+.image14Icon {
+  position: absolute;
+  top: 210px;
+  left: 0px;
+  width: 511.2px;
+  height: 105px;
+  object-fit: cover;
+}
+.image16Icon {
+  position: absolute;
+  top: 315px;
+  left: 0px;
+  width: 511.2px;
+  height: 105px;
+  object-fit: cover;
+}
+.image17Icon {
+  position: absolute;
+  top: 105px;
+  left: 13.8px;
+  width: 511.2px;
+  height: 105px;
+  object-fit: cover;
+}
+.image13Parent {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 525px;
+  height: 420px;
+}
+.paymentoptionInner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 525px;
+  height: 420px;
+  overflow: hidden;
+}
+.paymentoption {
+  position: relative;
+  background-color: var(--color-white);
+  width: 500px;
+  height: 210px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.payoption {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 35px 100px 35px
+    var(--padding-3xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 31.5px;
+}
+.confirmDetails {
+  align-self: stretch;
+  position: relative;
+  font-size: 36.75px;
+}
+.plan {
+  position: relative;
+}
+.monthWrapper {
+  background-color: var(--color-gainsboro-100);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: center;
+  justify-content: center;
+}
+.planParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 161px;
+}
+.emailAddressParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 70px;
+}
+.paymentOptionParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 53px;
+}
+.totalParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 160px;
+}
+.confirm {
+  position: relative;
+  font-size: 36.75px;
+  font-family: var(--font-inder);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 154px;
+}
+.confirmpricebtn1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: var(--color-cornflowerblue-100);
+  border-radius: var(--br-2xs-5);
+  width: 202px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.payDetail {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: 47px var(--padding-xl);
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-2xl);
+}
+.pricingcontainer1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.performanceManagementSystem1 {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  height: 95px;
+}
+.performanceManagementSystemWrapper {
+  align-self: stretch;
+  height: 95px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-indigo-100);
+}
+.playsoreIcon1 {
+  position: relative;
+  width: 39.8px;
+  height: 39.8px;
+  object-fit: cover;
+}
+.getItOn {
+  margin: 0;
+}
+.playStore {
+  margin: 0;
+  font-size: 15.92px;
+}
+.getItOnContainer1 {
+  line-break: anywhere;
+  width: 100%;
+}
+.getItOnContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 106.6px;
+  height: 51.7px;
+  flex-shrink: 0;
+}
+.playstore {
+  border-radius: 7.96px;
+  background-color: var(--color-whitesmoke-200);
+  height: 47.7px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 17.507368087768555px 12.73263168334961px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 22.28px;
+  cursor: pointer;
+}
+.apple {
+  border-radius: 7.96px;
+  background-color: var(--color-whitesmoke-200);
+  height: 47.7px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 12.73263168334961px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 22.28px;
+  cursor: pointer;
+}
+.playstoreParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-36xl);
+  font-size: 12.73px;
+}
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  border-top: 0.8px solid var(--color-black);
+  box-sizing: border-box;
+  height: 0.8px;
+}
+.performanceManagementSystem2 {
+  align-self: stretch;
+  position: relative;
+  font-size: 15.92px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  flex-shrink: 0;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xl);
+  font-size: 39.79px;
+}
+.iconDiscord1 {
+  position: absolute;
+  bottom: 4px;
+  left: calc(50% - 91.95px);
+  width: 15.9px;
+  height: 16px;
+  object-fit: cover;
+}
+.joinUsOn1 {
+  position: absolute;
+  top: 0px;
+  left: 45.9px;
+  cursor: pointer;
+}
+.iconDiscordParent {
+  position: relative;
+  width: 183.9px;
+  height: 20px;
+  cursor: pointer;
+}
+.facebookIcon1 {
+  position: absolute;
+  bottom: 4px;
+  left: calc(50% - 98.95px);
+  width: 15.9px;
+  height: 16px;
+  object-fit: cover;
+}
+.facebookParent {
+  position: relative;
+  width: 197.9px;
+  height: 20px;
+  cursor: pointer;
+}
+.frameDiv {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.vectorIcon5 {
+  position: absolute;
+  right: 172.3px;
+  bottom: 4px;
+  width: 15.9px;
+  height: 16px;
+  object-fit: cover;
+}
+.jhamsikhelsanepa {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.vectorParent {
+  position: relative;
+  width: 188.2px;
+  height: 20px;
+}
+.vectorIcon6 {
+  position: absolute;
+  right: 170.3px;
+  bottom: 4px;
+  width: 15.9px;
+  height: 15.9px;
+  object-fit: cover;
+}
+.vectorGroup {
+  position: relative;
+  width: 186.2px;
+  height: 20px;
+}
+.vectorIcon7 {
+  position: absolute;
+  right: 219.3px;
+  bottom: 3.1px;
+  width: 15.9px;
+  height: 16px;
+  object-fit: cover;
+}
+.vectorContainer {
+  position: relative;
+  width: 235.2px;
+  height: 20px;
+}
+.frameParent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.disclaimer {
+  flex: 1;
+  position: relative;
+  cursor: pointer;
+}
+.threethings {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-4xs) 0px;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-17xl);
+  text-align: center;
+}
+.footer1 {
+  align-self: stretch;
+  background-color: var(--color-white);
+  box-shadow: 0px 3.2px 39.79px 23.87px #fff;
+  border: 0.8px solid var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-xl);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-65xl);
+  text-align: left;
+  font-size: 15.92px;
+  color: var(--color-black);
+  font-family: var(--font-inder);
+}
+.pricing {
+  position: relative;
+  background: linear-gradient(180deg, #fff 8.33%, #d5ebf8 44.27%);
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-base-9);
+  color: var(--color-black);
+  font-family: var(--font-inder);
+}
+
+@media screen and (max-width: 1200px) {
+  .performanceManagementSystem1 {
+    font-size: var(--font-size-11xl);
+  }
+
+  .playstoreParent {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 960px) {
+  .links1 {
+    display: none;
+  }
+
+  .hamburgerMenu {
+    display: flex;
+  }
+
+  .signinandgetstarted {
+    display: none;
+  }
+
+  .pricingBox {
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .suscriptionoption {
+    flex-direction: column;
+  }
+  .paymentoption{max-width: 80%;}
+  .paymentimage{max-width: 80%;}
+
+  .frameGroup {
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .frameDiv {
+    flex-direction: column;
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .frameParent1 {
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .frameParent {
+    flex-direction: column;
+  }
+
+  .disclaimer {
+    flex: unset;
+    align-self: stretch;
+  }
+
+  .threethings {
+    flex-direction: column;
+  }
+}
